@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "username": "docker",
+  "password": "docker123",
+  "database": "project",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/City/entity/*.ts", "./src/Client/entity/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
