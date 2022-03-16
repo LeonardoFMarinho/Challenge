@@ -26,7 +26,7 @@ OBS: A pasta City ou Client seguem a mesma logica
 
 - Interface do repositório.
 - Repositório que tem como função se comunicar com BD (Implementa da Interface do repositório)
-- Repósitorio in-Memory para os testes. 3. useCase (Implementa da Interface do repositório )
+- Repósitorio in-Memory para os testes. (Implementa da Interface do repositório )
 
 #### Pasta UseCase
 
